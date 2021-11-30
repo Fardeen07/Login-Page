@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.user-info {
+    width: 100%;
+    height: 657px;
+    background: no-repeat center/cover url(https://wallpapercave.com/wp/wp5356606.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(183, 183, 164, 0.45);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.698);
+    display: flex;
+}
+
+.description {
+    width: 45%;
+    height: 100%;
+    color: whitesmoke;
+    border-right: 1px solid whitesmoke;
+    border-radius: 20px;
+    padding: 25% 50px 0 50px;
+    box-sizing: border-box;
+}
+
+.description h1 {
+    text-align: center;
+    letter-spacing: 6px;
+    font-weight: 600;
+}
+
+.description p {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.user-login-details {
+    width: 55%;
+    height: 100%;
+    color: whitesmoke;
+    padding: 7% 10% 0 12%;
+    box-sizing: border-box;
+}
+
+.user-login-details h1 {
+    text-align: justify;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.inp {
+    width: 90%;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.301);
+    margin-top: 50px;
+}
+
+.user-login-details input {
+    border: none;
+    background-color: rgba(199, 199, 32, 0);
+    font-size: large;
+    padding-left: 25px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.350);
+}
+
+input:focus,
+input:-webkit-autofill {
+    outline: none;
+    color: black;
+}
+
+.hidden-pass {
+    /* visibility: hidden; */
+    transform: translateX(60px);
+}
+
+.pri {
+    width: 100%;
+    margin-top: 25px;
+    background-color: rgba(199, 199, 32, 0);
+}
+
+.checkbox input:checked {
+    border-color: red;
+    background-color: red;
+}
+
+button {
+    padding: 3px 50px 3px 50px;
+    color: white;
+    background-color: #1d3557ca;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: none;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+
+/* input[type=checkbox] {
+    display: none;
+} */
+
+
+/* input[type=checkbox]+span {
+    display: inline-block;
+} */
+
+
+/* input[type=checkbox]+span::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 3px;
+    border: 1px solid rgb(255, 255, 255);
+    background: none rgba(255, 255, 255, 0);
+}
+
+input[type=checkbox]:checked+span::before {
+    background: none #ff000000;
+} */
