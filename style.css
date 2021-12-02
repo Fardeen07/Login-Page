@@ -87,15 +87,6 @@ input:-webkit-autofill {
     color: black;
 }
 
-
-/* .hidden-pass {
-    visibility: hidden;
-    transform: translateX(60px);
-} */
-
-
-/* privacy policy styling */
-
 .pri {
     width: 100%;
     margin-top: 25px;
@@ -119,31 +110,3 @@ button {
     margin-top: 25px;
     margin-left: 100px;
 }
-
-
-/* below this is an attempt to customize checkbox; check later*/
-
-
-/* input[type=checkbox] {
-    display: none;
-} */
-
-
-/* input[type=checkbox]+span {
-    display: inline-block;
-} */
-
-
-/* input[type=checkbox]+span::before {
-    content: '';
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    margin-right: 3px;
-    border: 1px solid rgb(255, 255, 255);
-    background: none rgba(255, 255, 255, 0);
-}
-
-input[type=checkbox]:checked+span::before {
-    background: none #ff000000;
-} */

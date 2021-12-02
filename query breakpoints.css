@@ -10,7 +10,6 @@
             width: 100%;
             height: 45%;
             padding: 2% 50px 2% 50px;
-            /* flex-shrink: 1; */
         }
         .description h1 {
             text-align: center;
@@ -27,12 +26,9 @@
         form {
             width: 100%;
             box-sizing: content-box;
-            /* height: 40%; */
-            /* height: inherit; */
         }
         .user-login-details {
             width: 100%;
-            /* height: 40%; */
             padding: 2% 10% 0 10%;
         }
         .user-login-details h1 {
@@ -52,7 +48,7 @@
             padding: 3px 9px;
         }
     }
-    /* only to look a bit more clean */
+    /* only to make the button look a bit more clean */
     
     @media (max-width: 500px) and (min-width:350px) {
         .description h1 {
@@ -74,20 +70,13 @@
             width: 100%;
             height: 50%;
             padding: 5% 50px 5% 50px;
-            /* flex-shrink: 1; */
         }
         .user-login-details {
             width: 100%;
             padding: 5% 10% 0 12%;
-            /* flex-shrink: 1; */
         }
         .user-login-details h1 {
             text-align: center;
-        }
-        .hidden-pass {
-            /* transform: translateX(5px); */
-            position: absolute;
-            left: 55%;
         }
         .inp {
             margin-top: 25px;
