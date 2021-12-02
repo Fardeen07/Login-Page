@@ -44,6 +44,10 @@ body {
     font-weight: 300;
 }
 
+form {
+    width: 100%;
+}
+
 .user-login-details {
     width: 55%;
     height: 100%;
@@ -83,10 +87,14 @@ input:-webkit-autofill {
     color: black;
 }
 
-.hidden-pass {
-    /* visibility: hidden; */
+
+/* .hidden-pass {
+    visibility: hidden;
     transform: translateX(60px);
-}
+} */
+
+
+/* privacy policy styling */
 
 .pri {
     width: 100%;
@@ -106,6 +114,7 @@ button {
     border-radius: 20px;
     outline: none;
     box-shadow: none;
+    border: none;
     font-weight: 400;
     margin-top: 25px;
     margin-left: 100px;
